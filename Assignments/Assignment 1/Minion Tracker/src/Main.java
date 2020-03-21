@@ -6,8 +6,7 @@ public class Main {
         System.out.println("hello world");
         System.out.println("hello world");
         System.out.println("hello world");
-        System.out.println("hello world");
-        System.out.println("hello world");
+
         List<Minions> listOfMinions = new ArrayList<>();
         Menu menu = new Menu(listOfMinions);
     }
