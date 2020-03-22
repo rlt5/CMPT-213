@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TerminalProjectOptionsProvider">
+    <envs>
+      <env key="SSH_AUTH_SOCK" value="C:\Users\robin\.ssh\.ssh-pageant-robin" />
+    </envs>
+  </component>
+</project>
