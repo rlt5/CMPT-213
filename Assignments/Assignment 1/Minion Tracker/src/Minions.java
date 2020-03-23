@@ -39,11 +39,13 @@ public class Minions {
     }
 
     public void setNumberEvilDeeds(int numberEvilDeeds) {
+
         this.numberEvilDeeds = numberEvilDeeds;
     }
 
     @Override
     public String toString() {
+
         return "Minions{" +
                 "name='" + name + '\'' +
                 ", height=" + height +

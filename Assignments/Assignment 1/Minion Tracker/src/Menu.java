@@ -68,8 +68,10 @@ public class Menu {
         }
     }
 
+
     private void listMinions(List<Minions> listOfMinions){
         int minionNumber = 1;
+
         for (Minions minion: listOfMinions){
             System.out.println("List of Minions:");
             System.out.println("****************");
