@@ -1,0 +1,45 @@
+CMPT 213 Assignment 2 Marking Guide
+Peer Feedback Analysis Tool
+
+Assignment must be done individually.
+
+Total =  [100] marks.
+
+[20] Single Group
+	* Tested with data for 1 group with 4 students
+	* This requires correctly finding and reading JSON files, correctly processing
+	  feedback to generate correct and well-formatted .CSV file.
+
+[20] Multiple Groups
+	* Tested with a data set that has multiple groups, with possibly different 
+	  number of students per group
+	* This requires correlating students into correct groups
+	* Must generate correct and well-formatted .CSV file.
+
+[20] Processing Other Valid Data
+	* Code will be tested with ~10 other valid data sets to assess how tool handles correct
+	  data.
+
+[30] Error Handling
+	* PROGRAM MUST EXIT WITH ERROR CODE -1 WHEN THERE IS AN ERROR.
+	* Code will be tested with ~15 invalid data sets which should each cause error(s).
+	* Must print reasonable error message in each case.	
+
+[10] Object Oriented Design
+	* Reasonable class architecture using at least 3 non-trivial classes.
+	* Private fields, well named methods.
+
+[ 0] Correctly follow coding style guide.
+	(No marks *given* for following style guide; able to lose up to ~15 marks for very poor style)
+	* Very minor violations have no penalty (ex: having "int myCount=0;" (spacing wrong))
+	* Lose a few marks for consistent problems (like always getting the spacing wrong).
+	* Larger penalties possible for horrific code (up to not being marked!)
+
+	Some specifics to check
+	* JavaDoc comment on each class (not needed on methods/fields)
+	* Correct indentation, brackets, spacing (use IDE's reformat if needed).
+	* Good intention revealing class, method, and variable names.
+
+
+Forward to Dr. Fraser if...
+- Material is suspiciously similar to another submission or code posted online.
