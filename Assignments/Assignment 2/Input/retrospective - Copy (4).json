@@ -1,0 +1,29 @@
+{
+  "group": [
+    {
+      "name": "asdf",
+      "sfu_email": "asdf",
+      "contribution": {
+        "score": 20,
+        "comment": "asfd"
+      }
+    },
+    {
+      "name": "123",
+      "sfu_email": "123",
+      "contribution": {
+        "score": 20,
+        "comment": "123"
+      }
+    },
+    {
+      "name": "qwerty",
+      "sfu_email": "qwerty",
+      "contribution": {
+        "score": 20,
+        "comment": "qwerty"
+      }
+    }
+  ],
+  "confidential_comments": "1q2w3e"
+}
