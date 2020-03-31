@@ -4,11 +4,11 @@ import java.io.FileNotFoundException;
 
 public class PeerFeedbackProcessor {
 
-    public static void main(String[] argv){
-        if (argsv.length ~= 3){
+    public static void main(String[] args){
+        if (args.length != 2){
             System.out.println("Need arguments: InputDirectory, OutputDirectory");
         }
-        
+
         String inputDirectory = args[0];
         String outputDirectory = args[1];
 
@@ -19,11 +19,12 @@ public class PeerFeedbackProcessor {
         File outputFolder = new File(outputDirectory);
         if (inputFolder.isDirectory() == false){
             System.out.println("Invalid input directory");
+            return;
         }
         if (outputFolder.isDirectory() == false){
             System.out.println("Invalid output directory");
+            return;
         }
-
 
     }
 
